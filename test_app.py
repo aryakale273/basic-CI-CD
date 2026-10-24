@@ -7,7 +7,7 @@ class TestApp(unittest.TestCase):
     def test_greet(self):
         self.assertEqual(
             greet("Arya"),
-            "Wrong message"
+            "Hello, Arya! Welcome to CI/CD."
         )
 
 
